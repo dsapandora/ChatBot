@@ -11,4 +11,10 @@ else:
 
 #Press CTRL-C to break the loop
 while True:
-	print kernel.respond(raw_input("Enter your message >> "))
+	message = raw_input("Enter your message >> ") 
+	if message = "quit":
+		exit()
+	elif message = "save":
+		kernel.saveBrain("bot_brain.brn")
+	else:
+		kernel.respond(message)
