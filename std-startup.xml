@@ -1,0 +1,16 @@
+<aiml version='1.0.1' encoding='UTF-8'>
+	<!-- std-startup.xml -->
+
+	<!-- Category is an atomic AIML unit -->
+	<category>
+		<!-- Pattern to match in the user input -->
+		<!-- If the user enters "LOAD AIML B" -->
+		<pattern>LOAD AIML B</pattern>
+
+		<!-- Template is the response to the pattern -->
+		<template>
+			<learn>basic_chat.aiml</learn>
+		</template>
+
+	</category>
+</aiml>
